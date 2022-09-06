@@ -5,7 +5,7 @@
   text-align: left;
   position: relative;
   box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  
+
 
   .card-title {
     margin-bottom: 1rem;
@@ -24,7 +24,7 @@
     padding: 1.2rem;
   }
 
-  .card-calculator, .card-builder, .card-karma, .card-supervisor, .card-supervisor-2, .card-calculator-2  {
+  .card-calculator, .card-builder, .card-karma, .card-supervisor {
     border-top: 3px solid;
   }
 }
@@ -37,7 +37,10 @@
   column-gap: 20px;
   row-gap: 20px;
 
+
+
   .card-supervisor {
+    transform: translateY(-50%);
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
@@ -54,6 +57,7 @@
   }
 
   .card-calculator {
+    transform: translateY(-50%);
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
